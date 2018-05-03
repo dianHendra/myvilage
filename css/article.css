@@ -1,0 +1,16 @@
+.list-index{
+    width: 15%;
+    height: 100vh;
+    display: none;
+    text-align: left;
+    float: right;
+}
+
+.full-article img{
+    float: left;
+    margin-right: 10px;
+}
+.article-block{
+    width: 80%;
+    margin: auto;
+}

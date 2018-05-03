@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+}
+/* ============header video========== */
+/* ----------------------------- */
+.welcome {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+}
+.welcome #video-welcome {
+    height: 100%;
+} 
+.conten-welcome {
+    position: absolute;
+    top: 50px;
+    font-family: 'Gugi', cursive;
+}
+/* ============Navbar========== */
+/* ----------------------------- */
+.nav {
+    text-align: center;
+    height: 50px;
+    color: white;
+    margin: auto;
+    border: 1px double black;
+}
+.nav .item-sub-nav {
+    margin: auto;
+}
+.nav a {
+    color: white;
+}
+.sub-nav {
+    display: none;
+}
+.main-nav a {
+    margin: auto;
+    color: white;
+}
+.nav img {
+    height: 20px;
+    width: 30px;
+}
+.f-nav{  /* To fix main menu container */
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color : rgba(37, 48, 71, 0.5);
+}
+
+/* ============section========== */
+/* ----------------------------- */
+section{
+    width: 100%;
+    height: 960px;
+}
+.content{
+    height: 30%;
+    border: 1px solid black;
+    position: relative;
+}
+.item-content {
+    display: none;
+    margin: 60px 0 0 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+.btn-content{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.figure-content img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+footer{
+    background-color: rebeccapurple;
+}
+.highlight{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+ }
+ .btn-highlight{
+    transform: scale(1.1);
+    border: 1px solid aqua;
+    color: aqua;
+ }
+ /* ============Footer========== */
+/* ----------------------------- */
+footer{
+    height: 30px;
+    color: rgb(132, 106, 228);
+    background-color: rgba(15, 16, 82, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+footer i {
+    margin: 5px;
+}

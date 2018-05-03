@@ -1,0 +1,60 @@
+body {
+    background-image: url('../img/darkstone.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #0000;
+}
+.category {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    position: relative;
+    background-color: transparent;
+    color: white;
+}
+.sub-category{
+    width: 30%;
+    margin: auto;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+.sub-category img {
+    height:  80%;
+    opacity: 0.7;
+    border-radius: 100%
+}
+.sub-category h4{
+    display: none;
+    position: absolute;
+    top: 0;
+}
+.gallery{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-gallery{
+    background-color: black;
+    width: 45%;
+    margin: 2.5%;
+    position: relative;
+    text-align: right;
+}
+.item-gallery .deskripsi-item{
+    color: white;
+    display: none;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.item-gallery img{
+    width: 100%;
+}
+.item-gallery .btn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}

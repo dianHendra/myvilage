@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction:  row;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 20%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card img{
+    margin: auto;
+    width: 80%;
+    background-color: black;
+}
+.card img:hover{
+    opacity: 0.5;
+    width: 100%;
+    background-color: black;
+}
