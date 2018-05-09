@@ -5,6 +5,31 @@ body {
     background-attachment: fixed;
     background-color: #0000;
 }
+.navbar-article {
+    text-align: center;
+}
+.navbar-article .rows {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-article .rows div {
+    align-items: center;
+    padding-top: 5px;
+    height: 50px;
+    margin: auto;
+}
+.navbar-article .rows div .fas {
+    font-size: 30px;
+}
+.nav-link img {
+    height: 20px;
+    width: 30px;
+}
+
+/* ==============content======================= */
 .category {
     display: flex;
     flex-direction: row;

@@ -1,16 +1,64 @@
-.list-index{
-    width: 15%;
-    height: 100vh;
-    display: none;
-    text-align: left;
-    float: right;
+.navbar-article {
+    text-align: center;
 }
-
+.navbar-article .rows {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-article .rows div {
+    align-items: center;
+    padding-top: 5px;
+    height: 50px;
+    margin: auto;
+}
+.navbar-article .rows div .fas {
+    font-size: 30px;
+}
+.nav-link img {
+    height: 20px;
+    width: 30px;
+}
+p, h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+/* ===========================conten========================= */
+.article-block{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.article-block > .daftar-isi {
+    display: none;
+    padding-left: 5px;
+    flex-basis: 80pc;
+    height: auto;
+    left: 0;
+    border-left: 1px solid black;
+}
+.list {
+    list-style-type: none;
+    padding: 10px;
+}
+.item-list {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-top: 1px dotted black;
+}
+.sub-item-list {
+    list-style-type: none;
+    display: none;
+}
+.rotate {
+    transform: rotate(90deg)
+}
 .full-article img{
+    width: 150px;
     float: left;
     margin-right: 10px;
 }
-.article-block{
-    width: 80%;
-    margin: auto;
-}
+

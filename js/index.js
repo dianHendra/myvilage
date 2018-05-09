@@ -64,12 +64,24 @@ $(document).ready(function(){
     $(this).mousemove( function(e){
         var a = e.pageX;
         var b = e.pageY;
-        if (a > 1300){
-            $(this).find('.list-index').show();
-        } else {
-            $(this).find('.list-index').hide();
+        if (a > 1280){
+            $(this).find('.daftar-isi').show("slide", 'slow');
         }
         $('#position').val(a);
+    });
+    $('.daftar-isi').mouseleave(function(){
+        $(this).hide();
+    });
+    $('#DaftarIsi').click(function(){
+        $('.daftar-isi').toggle();
+    });
+
+    $('.head-list').click(function(){
+        $(this).parent().find('.list').toggle();
+    });
+    $('.item-list').click(function(){
+        $(this).next().toggle();
+        $(this).find('.fas').toggleClass('rotate');
     });
 
     //===========================
