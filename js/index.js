@@ -36,25 +36,28 @@ $(document).ready(function(){
     //====      Gallery     =====
     //===========================
     $('.category').hide();
-    $('.navbar').hover(function(){
+    $('.navbar-gallery').hover(function(){
         $('.category').show();
     });
     $('.category').mouseleave(function(){
         $(this).hide();
     });
     $('.sub-category').hover(function(){
-        $(this).find('img').css({'opacity': '1', 'height':  '100%'})
+        var texts = $(this).find('h4').text();
+        $('#category').text(texts);
+        $(this).find('img').css({'opacity': '1'})
         $(this).find('h4').show();
     }, function(){
-        $(this).find('img').css({'opacity': '0.7', 'height':  '80%'})
+        $('#category').text('Gallery');
+        $(this).find('img').css({'opacity': '0.8'})
         $(this).find('h4').hide();
     });
     $('.item-gallery').hover(function(){
         $(this).find('.deskripsi-item').toggle();
-        $(this).find('img').css('opacity', '0.5');
+        $(this).find('img').css({'transform': 'scale(1.1)', 'opacity': '0.7'});
     }, function(){
         $(this).find('.deskripsi-item').toggle();
-        $(this).find('img').css('opacity', '1');
+        $(this).find('img').css({'transform': 'scale(1.0)', 'opacity': '1'});
     });
 
     //===========================
